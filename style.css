@@ -1,0 +1,41 @@
+@import url('https://fonts.cdnfonts.com/css/supra');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Supra', sans-serif;
+}
+
+.logo {
+  position: relative;
+  margin: 20px;
+  font-size: 42pt;
+}
+
+nav {
+  margin-left: 300px;
+  
+}
+
+.menu {
+  display: none;
+}
+
+.menu.active {
+  display: block;
+}
+
+.menuBars {
+  margin-left: 20px;
+  font-size: 18pt;
+}
+
+.menuItem {
+  text-decoration: none;
+  list-style: none;
+  font-size: 18pt;
+  margin-left: 20px;
+}
